@@ -38,7 +38,7 @@ jobs:
     
     # using ubuntu which has docker preinstalled
     - name: Build and Push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v5
+      uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: bismsit29/demo-application
         registry: docker.io
